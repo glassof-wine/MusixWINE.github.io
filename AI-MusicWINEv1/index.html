@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MusixWINE.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+  <div class="music-player">
+    <audio controls="false">
+     <source src="Maco Mamuko Tequila (Speed up).mp3" type="audio/mpeg">
+    </audio>
+
+    
+
+    
+    <div class="container">
+        <div class="song-title">Tequila!</div>
+        <img class="song-art" src="OIG.jpg" alt="Song Art">
+        <div class="slider"></div>
+      </div>
+
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+    
+    <div class="controls">
+      <button class="prev"><i class="fas fa-step-backward"></i></button>
+      <button class="play"><i class="fas fa-play"></i></button>
+      <button class="pause" style="display: none;"><i class="fas fa-pause"></i></button>
+      <button class="next"><i class="fas fa-step-forward"></i></button>
+      <button class="volume-button"><i class="fas fa-volume-up"></i></button>
+      <input type="range" class="volume-slider" min="0" max="100" value="50" style="display: none;">
+    </div>
+    
+  </div>
+  
+<script src="script.js"></script>
+</body>
+</html>
